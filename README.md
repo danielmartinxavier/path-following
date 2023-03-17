@@ -10,7 +10,7 @@ Before launching the simulation, X-Plane 10 should be already launched and ready
 
 They are called by the script *main_script_X_Plane.m* to run the simulation. The parameters for each strategy can be modified using the script *parameters.m*. The *metrics.m* file computes some important metrics of the simulation. 
 
-**Note:** the wind intensity should be set manually on X-Plane and the user is responsible for choosing the airplane type (Cessna 172 P recommended).
+**Note:** the wind intensity should be set manually on X-Plane and the user is responsible for choosing the airplane type (Cessna 172SP recommended).
 
 **Note 2:** during runtime, there are some errors that may occur due to a communication failure between MATLAB and X-Plane. The code is programmed to deal with this by reinitializing the simulation. That's why a complete simulation can take more time than expected.
 
