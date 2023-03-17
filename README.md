@@ -13,3 +13,9 @@ They are called by the script *main_script_X_Plane.m* to run the simulation. The
 **Note:** the wind intensity should be set manually on X-Plane and the user is responsible for choosing the airplane type (Cessna 172 P recommended).
 
 **Note 2:** during runtime, there are some errors that may occur due to a communication failure between MATLAB and X-Plane. The code is programmed to deal with this by reinitializing the simulation. That's why a complete simulation can take more time than expected.
+
+### Citing
+
+If you use this project for academic work, please consider citing our [publication](https://link.springer.com/article/10.1007/s10846-022-01764-4): 
+
+Xavier, D.M., Silva, N.B.F. & Branco, K.R.L.J.C. Path-following Algorithms Comparison using Software-in-the-Loop Simulations for UAVs. J Intell Robot Syst 106, 63 (2022). 
